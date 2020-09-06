@@ -7,6 +7,6 @@ def max(a):
     max_v = a[0] # 1st value => max_v
     for i in range(1,n):
         if a[i] > max_v: # compare value
-            max_v = a[i]
+            max_v = a[i] # save max
     return max_v
 print(max(a))
